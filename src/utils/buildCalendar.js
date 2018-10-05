@@ -1,4 +1,4 @@
-const TODAY = new Date();
+const TODAY = new Date(Date.UTC(2017, 01, 01));
 export const gWeekDay = date => date.getDay();
 export const gDay = date => date.getDate();
 export const gMonth = date => date.getMonth();
